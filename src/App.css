@@ -1,38 +1,51 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+body {
+  min-height: 100vh;
+  background: rgb(228, 216, 208);
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-family: "Fredoka One", cursive;
+  font-size: 34px;
+  color: rgb(59, 59, 59);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  margin: 1rem;
+  background-color: #386641;
+  font-size: 16px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px darkgray;
+  color: whitesmoke;
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttonArea {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#count,
+p {
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(59, 59, 59);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gridWrapper {
+  margin: 2rem;
+}
+
+img {
+  width: 60px;
+  height: auto;
+  padding: 5px;
 }
